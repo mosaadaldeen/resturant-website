@@ -5,9 +5,9 @@ include ('includes/header.php');
 ?>
 
 <div id="menu-items">
-    <h1>Our delicious Menu</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit.</em></p>
+    <h1>Our Delicious Menu</h1>
+		<p>Like our team, our menu is very small &mdash; but dang, does it ever pack a punch!</p>
+		<p><em>Click any menu item to learn more about it.</em></p>
     <hr>
 
     <ul>

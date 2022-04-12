@@ -6,8 +6,8 @@ include ('includes/header.php');
 <div id="philosophy">
     <hr>
     <h1>Franklin's Fine Dining</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur delectus quae dolores quod maiores fugit tempore explicabo molestias voluptate architecto! Veniam praesentium, expedita nobis vero recusandae numquam molestiae provident atque!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur delectus</p>
+    <p>Here at Franklin's, we know that good food isn't  just about how expensive the dish. We're bit pompous, we're proud. We're proud of our work, our quality, our enviroment, and our love for food and family.</p>
+    <p>Oh, and you can call us Frankie's. You're family here.</p>
 
     <hr>
 </div>
