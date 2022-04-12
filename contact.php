@@ -1,13 +1,11 @@
 <?php 
 define('TITLE','Contact | Franklin\'s Fine Dining');
 include ('includes/header.php');
-
 ?>
 
 <div id="contact">
     <hr>
     <h1>Get in touch with us!</h1>
-
 
         <?php 
 
@@ -20,7 +18,7 @@ include ('includes/header.php');
                 $email = trim($_POST['email']);
                 $msg= $_POST['message'];
                 
-                    if(has_header_injection($name) || has_header_injection($email)){
+                if(has_header_injection($name) || has_header_injection($email)){
                     die();
                 }
 
@@ -71,17 +69,10 @@ include ('includes/header.php');
         <label for="subscribe">Subscribe to newsletter</label>
 
         <input type="submit" class='button next' name='contact_submit' value='Send Message'>
-
     </form>
     <?php }?>
     <hr>
 
 </div>
 
-
-
-
-<?php 
-include ('includes/footer.php');
-
-?>
+<?php include ('includes/footer.php');?>

@@ -2,12 +2,10 @@
 define("TITLE", "menu Item");
 include ('includes/header.php');
 
-
 function strip_bad_chars($input){
     $output = preg_replace("/[^a-zA-Z0-9_-]/", "", $input);
     return $output;
 }
-
 
 if(isset($_GET['item'])){
     $menuItem = strip_bad_chars($_GET['item']);
@@ -30,7 +28,6 @@ if(isset($_GET['item'])){
 </div>
 <hr>
 <a href="menu.php" class='button previous'>&laquo; Back to Menu</a>
-
 
 <?php include ('includes/footer.php');?>
 
